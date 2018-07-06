@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="images/logo.png"></a>
+         </div>
+         <nav>
+            <div class="topnav" id="myTopnav">
+              <a href="index.html">HOME</a>
+               <a href="project.html">PROJECTS</a>
+               <a href="blog.html">BLOG</a>
+               <a href="contact.html">CONTACT</a>
+               <a href="about.html">ABOUT</a>
+               <a href="services.html">SERVICES</a>
+               <a href="location.html">LOCATION</a>
+               <a href="#" class="icon" id="menu">&#9776;</a>
+            </div>
+         </nav>
+      </header>   
+      <main>
+         <h1>Location</h1>
+        <div id="map"></div>
+      </main>   
+      <footer>
+         <nav>
+            <a href="index.html">HOME</a>
+            <a href="project.html">PROJECTS</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="about.html">ABOUT</a>
+            <a href="services.html">SERVICES</a>
+            <a href="location.html">LOCATION</a>
+         </nav>
+         <a href="index.html"><img class="graficlogo" src="images/logo.png" alt=""></a>
+         <div class="social">
+            <img src="images/em.png" alt="">
+            <img src="images/goo.png" alt="">
+            <img src="images/face.png" alt="">
+            <img src="images/inst.png" alt="">
+            <img src="images/pint.png" alt="">
+         </div>
+         <p>Name of some company  2018</p>
+      </footer>
+      <script>
+      function initMap() {
+        var uluru = {lat: 50.4041743, lng: 30.6727962};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoQeEZv3tflPFly8YMyUYXXZwWFV82Vss&callback=initMap">
+    </script>
+      <script src="script.js"></script>
+   </body>
+</html>

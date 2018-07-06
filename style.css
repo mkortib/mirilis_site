@@ -1,0 +1,387 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+a {
+   text-decoration: none;
+}
+li {
+   text-decoration: none;
+   list-style: none;
+}
+body {
+   font-family: 'Raleway', sans-serif;
+}
+.logo {
+   width: 100%;
+   background: #000;
+   display: flex;
+   justify-content: center;
+}
+.graficlogo {
+   box-sizing: border-box;
+   max-width: 100%;
+   padding: 5px;
+}
+nav {
+   width: 700px;
+   margin: auto;
+   height: 100px;
+}
+.topnav {
+   font-size: 14px;
+   background: #fff;
+   margin-top: 40px;
+}
+.topnav a{
+/*   font-size: 20px;*/
+   font-weight: bold;
+   padding: 14px 16px;
+   color: #000;
+   font-size: 15px;
+}
+.topnav a.icon {
+   display: none;
+}
+.topnav a:hover{
+   border-bottom: 2px solid #000;
+}
+.mw-100 {
+   max-width: 100%;
+}
+.advantages_container {
+   display: flex;
+   justify-content: center;
+}
+.advantages {
+   padding: 40px 0px;
+   display: flex;
+   width: 70%;
+   justify-content: space-between;
+   text-align: center;
+   flex-wrap: wrap;
+}
+.advantages_item {
+   width: 30%;
+}
+.advantages_item h2{
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+footer {
+/*   position: absolute;*/
+/*   bottom: 0px;*/
+   padding: 40px 0;
+   background: #000;
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+}
+footer nav a {
+   transition: opacity .5s ease;
+   font-weight: bold;
+   font-size: 14px;
+   margin-right: 10px;
+   color: #fff;
+}
+footer nav a:hover {
+   opacity: 0.7;
+   border-bottom: 1px solid #fff;
+}
+.social img {
+   opacity: 1;
+   transition: all .5s ease;
+   margin: 15px 15px 0px 0px;
+}
+.social img:hover {
+   opacity: 0.8;
+   cursor: pointer;
+}
+footer p {
+   margin-top: 20px;
+   font-size: 13px;
+   color: #fff;
+}
+.galary_item img {
+   width: 280px;
+   height: 157px;
+}
+.galary {
+   display: flex;
+   width: 80%;
+   margin: auto;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+}
+.galary_item {
+   margin: 10px;
+   width: 23%;
+}
+.galary_item img { 
+   transition: all .5s ease;
+   opacity: 0.7;
+   box-sizing: border-box;
+   max-width: 100%;
+}
+.galary_item img:hover {
+   opacity: 1;
+   cursor: pointer;
+}
+.blog_container {
+   font-weight: 100;
+   border-radius: 5px;
+   background: #f4eeee;
+   box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
+   box-sizing: border-box;
+   width: 55%;
+   margin: 100px auto;
+}
+.welcome {
+   color: #484848;
+   font-size: 23px;
+   text-align: center;
+   text-transform: uppercase;
+}
+.welcome:hover {
+   cursor: pointer;
+   opacity: 0.7;
+}
+.blog_container a:hover{
+   border-color: #ff4d4d;
+   color: #ff4d4d;
+}
+.blog_body {
+   margin: 0 auto;
+   width: 80%;
+}
+.blog_title h1 {
+   margin: 10px 0;
+}
+.blog_title h1 a {
+   color: #333;
+   font-weight: 100;
+}
+.blog_text p {
+   color: #4d4d4d;
+}
+
+.blog_header img {
+   width: 100%;
+   height: 300px;
+   border-radius: 5px 5px 0 0;
+   box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px; 
+}
+
+.blog_tags ul{
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 0;
+}
+.blog_tags li {
+   margin-top: 15px;
+   margin-right: 20px;
+   
+}
+.blog_tags a{
+   border: 1px solid grey;
+   color: grey;
+   padding: 0 5px;
+   border-radius: 5px;
+   font-size: 17px;
+   letter-spacing: 1px;
+   text-align: center;
+   text-transform: uppercase; 
+}
+.blog_tags {
+   padding-bottom: 15px;
+}
+.blog_footer ul {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+}
+.blog_footer {
+   border-top: 1px solid #cccccc;
+}
+.published_date {
+   margin: 20px;
+   color: #696767;
+   font-size: 18px;
+}
+#map {
+   width: 100%;
+   height: 400px;
+}
+.form {
+   width: 50%;
+   margin: 50px auto;
+}
+.feddback-input {
+   width: 100%;
+   font-weight: 300;
+   color: #000;
+   font-size: 17px;
+   line-height: 22px;
+   background: #fff;
+   padding: 13px;
+   margin-bottom: 10px;
+   border: 0px solid transparent;
+   border-bottom: 1px solid;
+}
+textarea {
+   height: 140px;
+   resize: vertical;
+}
+.button_ease {
+   margin-left: 10px;
+   float: left;
+   width: 100%;
+   border: 0px solid transparent;
+   cursor: pointer;
+   background: #000;
+   color: white;
+   font-size: 18px;
+   padding: 22px 0px;
+   transition: all .5s ease;
+   margin-top: -4px;
+   font-weight: 300;
+}
+.button_ease:hover {
+   background: #fff;
+   color: #000;
+   border: 1px solid black;
+}
+.ease {
+   width: 0;
+   height: 74px;
+}
+.container_about {
+   text-align: center;
+   width: 80%;
+   margin: 100px auto;
+}
+.container_about img{
+   max-width: 100%;
+}
+.container_about p {
+   margin-top: 50px;
+   font-size: 18px;
+   color: #343131;
+}
+.about h1 {
+   text-align: center;
+   color: #4a4a4a;
+   font-size: 44px;
+   margin-top: 50px;
+}
+.container_about h2 {
+   color: #4a4a4a;
+   font-size: 30px;
+   margin-top: 50px;
+}
+.services {
+   text-align: center;
+   width: 80%;
+   margin: 100px auto;
+}
+.services img{
+   max-width: 100%;
+}
+.services_container {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-gap: 50px 100px;
+   margin-top: 50px;
+}
+.services h1 {
+   margin-bottom: 150px;
+   font-size: 40px;
+   color: #3c3838;
+}
+@media screen and (max-width: 768px) {
+   .topnav a:not(:first-child) {
+      display: none;
+   }
+   .topnav a.icon {
+      display: block;
+      float: right;
+      margin-top: -17px;
+      color: #000;
+   }
+   nav {
+      width: 100%;
+      height: 100px;
+   }
+   .topnav.responsive {
+      position: relative;
+   }
+   .topnav.responsive a {
+      display: block;
+      float: none;
+      text-align: left;
+   }
+   .topnav.responsive a.icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+   }
+   .advantages_item {
+      width: 40%;
+   }
+   .advantages_item img {
+      width: 70%;
+   }
+   .blog_tags a{
+      font-size: 14px;
+   }
+   .blog_title h1 {
+      font-size: 25px;
+   }
+   .blog_text p {
+      font-size: 15px;
+   }
+    .blog_container {
+      width: 50%;
+   } 
+}
+@media screen and (max-width: 850px) {
+    .blog_container {
+      width: 70%;
+   } 
+}
+@media screen and (max-width: 1250px) {
+   .galary_item {
+      width: 45%;
+      margin-left: 10px;
+      text-align: center;
+      margin-bottom: 50px;
+   }
+}
+@media screen and (max-width: 653px) {
+   .advantages {
+      flex-direction: column;
+   }
+   .advantages_item {
+      width: 100%;
+      margin-bottom: 40px;
+   }
+   .advantages_item img {
+      width: 40%;
+   }
+
+}
+@media screen and (max-width: 640px) {
+   .galary {
+      flex-direction: column;
+   }
+   .galary_item {
+      width: 100%; 
+   }
+}
+
+@media screen and (max-width: 550px) {
+   .services_container {
+      grid-template-columns: auto;
+   }
+}
